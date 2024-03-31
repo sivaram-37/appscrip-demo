@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+#Website Link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+[Click Here]{https://appscrip-task-sivaram.netlify.app/}
 
 In the project directory, you can run:
 
