@@ -1,0 +1,35 @@
+/* ProductComponent */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px; /* Adjust as needed */
+  margin-left: 5%;
+  margin-right: 5%;
+  gap: 30px;
+}
+
+.product-item {
+  width: calc(24% - 10px);
+  margin-bottom: 6%; /* Adjust spacing between rows */
+  text-align: left;
+  height: 359px;
+}
+
+.product-item img {
+  width: 100%;
+  height: 399px;
+}
+
+.product-name {
+  margin-top: 5px;
+}
+.desc-like {
+  display: flex;
+}
+.product-desc {
+  font-size: 12px;
+}
+.like {
+  font-size: 14px;
+  margin-left: 20%;
+}

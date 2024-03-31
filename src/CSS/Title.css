@@ -1,0 +1,25 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  width: 580px;
+  height: 168px;
+  margin-top: 60px;
+  padding: 0;
+}
+.title-h {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.title-b {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}

@@ -1,0 +1,149 @@
+/* Toolbar Component */
+.toolbar {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between; /* Align items at the ends */
+}
+
+.t-num p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.t-filter {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+#filterValue {
+  font-family: Adobe Caslon Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #888792;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+#filterDropdown {
+  position: relative;
+}
+
+.filterDropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#filterDropdown:hover .filterDropdown-content {
+  display: block;
+}
+
+.filterDropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.filterDropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Recommend button */
+.t-rec-container {
+  padding-left: 65%;
+}
+
+.t-rec p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.t-rec-inp {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  border: none;
+  background-color: inherit;
+}
+.t-rec-inp:hover {
+  cursor: pointer;
+}
+
+.dropdown-overlay {
+  position: absolute;
+  top: 78%;
+  right: 7%;
+  z-index: 100;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dropdown-overlay ul {
+  list-style-type: none;
+  margin-left: 10px;
+  padding: 0;
+  text-align: right;
+}
+
+.dropdown-overlay ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-overlay ul li.selected {
+  background-color: #f0f0f0;
+}
+
+.selected-option-content {
+  margin-top: 20px;
+}
+
+/* ProductComponent */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px; /* Adjust as needed */
+  margin-left: 5%;
+  margin-right: 5%;
+  gap: 30px;
+}
+
+.product-item {
+  width: calc(24% - 10px);
+  margin-bottom: 6%; /* Adjust spacing between rows */
+  text-align: left;
+  height: 359px;
+}
+
+.product-item img {
+  width: 100%;
+  height: 399px;
+}
+
+.product-name {
+  margin-top: 5px;
+}
+.desc-like {
+  display: flex;
+}
+.product-desc {
+  font-size: 12px;
+}
+.like {
+  font-size: 14px;
+  margin-left: 20%;
+}
