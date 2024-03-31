@@ -1,6 +1,6 @@
 #Website Link
 
-[Click here to view website] { https://appscrip-task-sivaram.netlify.app/ }
+To view website:  https://appscrip-task-sivaram.netlify.app/ 
 
 In the project directory, you can run:
 
